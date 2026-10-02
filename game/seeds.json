@@ -1,0 +1,314 @@
+[
+ {
+  "start": "0x001CFF60",
+  "note": "Indirect-call target observed at runtime (Linux run, call #476); sits in the gap after sub_001CFE70."
+ },
+ {
+  "start": "0x00231FD8",
+  "note": "XPP (USB) indirect-call target observed at runtime (call #721); standard prologue after the section's data tables."
+ },
+ {
+  "start": "0x002329EE",
+  "note": "XPP (USB) indirect-call target observed at runtime (call #726); starts right after sub_00232873's ret 0Ch."
+ },
+ {
+  "start": "0x0018322D",
+  "note": "PsCreateSystemThreadEx StartContext1 observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E4D50",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E51C0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E5410",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E54C0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E5520",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6320",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6350",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E63C0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6430",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6450",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6470",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E64D0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E6590",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001E65E0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0023415A",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001EC1C0",
+  "note": "D3D GPU interrupt service routine: pushed as an immediate to KeInitializeInterrupt (0x001ED2CC), vector 3; never called directly, so the runtime could not raise it (\"irq 3 -> ISR not connected\")."
+ },
+ {
+  "start": "0x00189540",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x00189D20",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x00189D60",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x00189DD0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0018A180",
+  "note": "PsCreateSystemThreadEx StartContext1 observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0018B640",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x00190750",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0023384E",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0018D070",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x001C5880",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x000B5570",
+  "note": "Game fiber entry: CreateFiber start address, called by XAPI's fiber start wrapper 0x00182F76 through [ebp+8]; only ever a pointer."
+ },
+ {
+  "start": "0x001A3830",
+  "note": "CRI ADXT stream server body: tail-jump target of 0x001A38A0, missed because the tail-jump pass ran before 0x001A38A0 was found as an immediate reference; lifted as an empty stub."
+ },
+ {
+  "start": "0x0002EEC0",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0008A970",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x000A0530",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0019FDB0",
+  "note": "Sofdec: forwards its argument's +0x40 field to 0x001A0CE0 (tail jump); executed during movie start-up but lifted as an empty stub."
+ },
+ {
+  "start": "0x001A2EC0",
+  "note": "Sofdec stream processing; starts after sub_001A2E40's ret; executed during movie start-up but lifted as an empty stub."
+ },
+ {
+  "start": "0x001A1080",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ },
+ {
+  "start": "0x0019D690",
+  "note": "Sofdec routine after nop padding; called from 0x001A7BB6 during movie start-up, ran as an empty stub (RECOMP_STUB_TRACE)."
+ },
+ {
+  "start": "0x0006ADB0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00073AF0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00073F50",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00074250",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00074660",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00075D60",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00088690",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x000AEA60",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x000F2160",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00123930",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00123CE0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x0018D8D0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x001A1920",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x002166C0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x00217BE0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x002181C0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x002188A0",
+  "note": "Executed in xemu (gdbstub PC sampling, 2026-10-02, intro/menus); in a gap after padding, not found statically."
+ },
+ {
+  "start": "0x0008B580",
+  "note": "Runtime-observed after the intro movie (stub/indirect call), gap after ret."
+ },
+ {
+  "start": "0x00067EB0",
+  "note": "Runtime-observed after the intro movie (stub/indirect call), gap after ret."
+ },
+ {
+  "start": "0x001C52D0",
+  "note": "Runtime-observed after the intro movie (stub/indirect call), gap after ret."
+ },
+ {
+  "start": "0x000248B0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000324C0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x00042A20",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x0004DFF0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x00050A00",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x00050B50",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x0006BD20",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x0006F630",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x0006FBC0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x00075750",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000760B0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000CDAA0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000DCFC0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000E3B90",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000E96F0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000EA5A0",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x00110750",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x001CBA60",
+  "note": "xemu gdbstub sampling (stack/EIP), 2026-10-02: aligned prologue after padding in an uncovered gap; 0x000760B0 crashed the Switch build after the title screen when missing."
+ },
+ {
+  "start": "0x000F3220",
+  "note": "Indirect-call target observed at runtime; decodes as a function body."
+ }
+]

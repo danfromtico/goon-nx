@@ -1,0 +1,18 @@
+# Everything that is not source: the disc, lifted C, build trees, staged NROs.
+/work
+/work/
+
+# Game data never belongs here.
+*.xbe
+*.iso
+*.afs
+*.sfd
+*.aix
+*.nro
+*.elf
+
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
